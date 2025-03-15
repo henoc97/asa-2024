@@ -103,14 +103,6 @@ bash ./scripts/clean_infra.sh
    - Vérifier que toutes les VMs sont en état "RUNNING"
    - Vérifier que le réseau est "ACTIVE"
 
-2. Vérifier la connectivité réseau :
-
-```bash
-# Test de ping entre les VMs
-ssh ubuntu@192.168.100.10 ping -c 3 192.168.100.20
-ssh ubuntu@192.168.100.20 ping -c 3 192.168.100.30
-```
-
 ### 2️⃣ Validation des sauvegardes
 
 **Étapes de validation :**
